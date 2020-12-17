@@ -1,0 +1,73 @@
+.fg-white {
+    color: #fff !important;
+}
+
+.back-blue-70 {
+    background-color: #00b;
+}
+
+.breath {
+    height: 50px;
+}
+
+.deep-breath {
+    height: 100px;
+}
+
+.pending {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.image-infographic {
+	width: 100%;
+}
+
+
+.card {
+	background-color: #fff;
+	height: 380px;
+	overflow: hidden;
+	position: relative;
+	width: 100%
+}
+
+.card-front {
+	height: 100%
+}
+
+.card-back {
+	background-color: #eee;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform .2s;
+	transition: -webkit-transform .2s;
+	-o-transition: transform .2s;
+	transition: transform .2s;
+	transition: transform .2s, -webkit-transform .2s
+}
+
+.card.is-active .card-back {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.card-open {
+	border: 0;
+	bottom: 0;
+	cursor: pointer;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	width: 100%
+}
